@@ -1,0 +1,250 @@
+/*css all */
+body {
+    background-color: #3D3D3D;
+    margin: 0px;
+    line-height:1; font:normal 0.9em/1em "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,code,small,strike,strong,sub,sup,b,u,i{
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+} 
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+ol,ul{
+    list-style:none;
+}
+strong{
+    font-weight:700;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    text-align: center;
+    background-color: #292929;
+}
+
+#quiz{
+    position: relative;
+    max-width:620px;
+    width:auto;
+    border:1px 
+    solid #ccc;
+    background:#595959;
+    padding:10px;
+    margin:3px;
+    left: 250px;
+    top: 110px;
+}
+h1{
+    font:normal bold 2em/1.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align:left;
+    border-bottom:1px solid #999;
+    padding:0;
+    width:auto
+}
+h2{
+    font:italic bold 1.3em/1.2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding:0;
+    text-align:center;
+    margin:20px 0;
+}
+p.pager{
+    margin:5px 0 5px;
+    font:bold 1em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#999;
+}
+img.question-image{
+    display:block;
+    max-width:250px;
+    margin:10px auto;
+    border:1px solid #ccc;
+    width:100%;
+    height:auto;
+}
+#choice-block{display:block;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#submitbutton{
+    background:#5a6b8c;
+}
+#submitbutton:hover{
+    background:#7b8da6;
+}
+#explanation{
+    margin:0 auto;
+    padding:20px;
+    width:75%;
+}
+.choice-box{
+    display:block;
+    text-align:center;
+    margin:8px auto;
+    padding:10px 0;
+    border:1px solid #666;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a.hoover{
+    color: blue;
+}
+
+#link3{
+    background-color: #292929;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 16px;
+    height: 23px;
+    right: 250px;
+    padding-top: 2px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 20px;
+    width: 81px;
+    }
+
+#link4{
+    background-color: #292929;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 16px;
+    height: 23px;
+    right: 100px;
+    padding-top: 2px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 20px;
+    width: 130px;
+    }
+#button{
+    background-color: #595959;
+    border-radius: 4px 4px 4px 4px;
+    color: red;
+    font-size: 16px;
+    height: 25px;
+    left: 367px;
+    padding-top: 0px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 90px;
+}
+#time{
+    background-color: #DBDBDB;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 16px;
+    height: 25px;
+    color: red;
+    padding-top: 2px;
+    padding-right: 10px;
+    position: absolute;
+    left: 350px;
+    text-align: center;
+    text-decoration: none;
+    top: 80px;
+    width: 240px;
+}
+#pic1{
+    background-image: url("../img/sarapova.jpg");
+    float: left;
+    left: 95px;
+    margin: 0px;
+    width: 320px;
+    height: 500px;
+    top: 100px;
+    background-color: white;
+    position: relative;
+}
+#pic2{
+    background-image: url("../img/Cristiano-Ronaldo.jpg");
+    float: right;
+    right: 50px;
+    margin: 0px;
+    width: 320px;
+    height: 500px;
+    top: 100px;
+    background-color: white;
+    position: relative;
+}
+
+.ca_banner{
+    position:relative;
+    overflow:hidden;
+    background:#f0f0f0;
+    padding:10px;
+    border:1px solid #fff;
+    -moz-box-shadow:0px 0px 2px #aaa inset;
+}
+.ca_slide{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+.ca_zone{
+    position:absolute;
+    width:100%;
+}
+.ca_wrap{
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+.ca_wrap img.ca_shown{
+    display:inline !important;
+}
+.ca_banner1{
+    width:650px;
+    height:300px;
+}
+.ca_bg1{
+    background:#fff url("../img/sarapova.jpg") no-repeat top left;
+}
+.ca_banner1 .ca_zone1{
+    top:0px;
+    left:0px;
+}
+.ca_banner1 .ca_wrap1{
+    width:320px;
+    height:300px;
+}
+.ca_banner1 .ca_zone2{
+    top:100px;
+    left:240px;
+}
+.ca_banner1 .ca_wrap2{
+    width:387px;
+    height:203px;
+}
+.ca_banner1 .ca_zone3{
+    top:32px;
+    left:250px;
+}
+.ca_banner1 .ca_wrap3{
+    width:378px;
+    height:31px;
+}
+
+
+    
